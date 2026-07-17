@@ -36,7 +36,7 @@
       },
       {
 				"title": "Nightmare simulator",
-				"description": "I used C++ and the Qt Framework to develop this simulator which you can play by following the instructions in the Github repo. For my Object-Oriented Design course, I focused on clean, maintainable architecture. I leveraged inheritance and polymorphic behavior to manage diverse game entities through unified interfaces. To handle game states and object creation efficiently, I integrated structural design patterns, utilizing the Factory pattern for dynamic spawning and the Singleton pattern for centralized game management.",
+				"description": "I used C++ and the Qt Framework to develop this simulator which you can play by following the instructions in the Github repo. For my Object-Oriented Design course, I focused on clean, maintainable architecture. I leveraged inheritance and polymorphic behavior to manage diverse entities through unified interfaces. To handle states and object creation efficiently, I integrated structural design patterns, utilizing the Factory pattern for dynamic spawning and the Singleton pattern for centralized management.",
 				"url": "https://www.youtube.com/watch?v=75kpoI6Gbng",
         "github": "https://github.com/popInNotOut/nightmare-survival-simulator",
 				"image": "/nightmare.png"
@@ -52,8 +52,8 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "This is where you can describe about your contact. The more you describe about your contact, the more chances you have!",
-    "formId": "your-form-id"
+    "description": "I am currently evaluating new career opportunities. Feel free to reach out if you have an opening for a job, or if you just want to say hello!",
+    "formId": "xkodjavq"
   },
   "footer": [
     {
