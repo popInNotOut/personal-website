@@ -22,8 +22,8 @@ const About = () => {
           <p>{about.primary}</p>
           <p className="mt-6">{about.secondary}</p>
           <div className="mt-6">
-            <a href="#" className="cta-btn cta-btn--resume">
-              View Resume
+            <a href="#contact" className="cta-btn cta-btn--resume">
+              Contact me for resume
             </a>
           </div>
         </div>

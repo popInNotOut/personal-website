@@ -21,7 +21,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="cta-btn cta-btn--hero"
                 >
-                  <span>See Live</span>
+                  <span>See Demo</span>
                 </a>
                 <a
                   href={item.github}
