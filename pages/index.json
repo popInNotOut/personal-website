@@ -16,13 +16,13 @@
 	],
   "hero": {
     "name": "Justin",
-    "subtitle": "I like to turn complex problems into simple solutions."
+    "subtitle": "Building projects, solving problems, and writing code."
   },
   "about": {
     "title": "About me",
     "image": "/hackerProfilePicture.jpg",
-    "primary": "I recently graduated with a bachelor in computer science degree in 2026 with 90%+ average in my computer science courses. I did this while being schizophrenic and believing everybody is reading my thoughts 24/7. It wrecked havoc on my life and makes it really hard to think what I want to think. As a result, learning new things becomes much harder as I have a subconscious fear of the people hacking my brain. It all started in February of 2022, but each year after that, the effects on my psyche and thinking has only gotten worse. I believe I'm a victim of a conspiracy involving hundreds, if not thousands of individuals who have been blessed with advanced tech that can read my thoughts, see through my eyes, hear what I hear, and even feel my emotions remotely. I know some of the people involved in this conspiracy in real life and they never show any guilt whatsoever. They even go as far as joining my games online to try to disturb my peace even more.",
-    "secondary": "Looking forward to learning new skills and getting a job."
+    "primary": "Recent Computer Science graduate with hands-on experience building projects on both the frontend and backend. Eager to bring a collaborative mindset and passion for scalable code.",
+    "secondary": "Looking forward to expand my skillset and learning more about modern web frameworks and databases."
   },
   "projects": {
     "title": "Projects",
