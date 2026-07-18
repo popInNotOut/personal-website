@@ -7,21 +7,6 @@
    ============================================ */
 
 [data-theme="default"] {
-  --color-primary: 251 113 133;         /* rose-400 */
-  --color-secondary: 217 70 239;        /* fuchsia-500 */
-  --color-accent: 99 102 241;           /* indigo-500 */
-  --color-surface: 255 255 255;         /* white */
-  --color-on-surface: 0 0 0;            /* black */
-  --color-surface-dark: 38 38 38;       /* neutral-800 */
-  --color-on-surface-dark: 163 163 163; /* neutral-400 */
-  --color-muted: 82 82 82;             /* neutral-600 */
-
-  --gradient-primary: linear-gradient(to right, #fb7185, #d946ef, #6366f1);
-  --gradient-primary-135: linear-gradient(135deg, #fb7185, #d946ef, #6366f1);
-  --gradient-name: linear-gradient(to right, #9333ea, #db2777, #2563eb);
-}
-
-[data-theme="simplefolio-original"] {
   --color-primary: 2 170 176;           /* #02aab0 */
   --color-secondary: 0 205 172;         /* #00cdac */
   --color-accent: 39 35 65;             /* #272341 */
@@ -34,6 +19,21 @@
   --gradient-primary: linear-gradient(135deg, #02aab0, #00cdac);
   --gradient-primary-135: linear-gradient(135deg, #02aab0, #00cdac);
   --gradient-name: linear-gradient(135deg, #02aab0, #00cdac);
+}
+
+[data-theme="simplefolio-original"] {
+  --color-primary: 251 113 133;         /* rose-400 */
+  --color-secondary: 217 70 239;        /* fuchsia-500 */
+  --color-accent: 99 102 241;           /* indigo-500 */
+  --color-surface: 255 255 255;         /* white */
+  --color-on-surface: 0 0 0;            /* black */
+  --color-surface-dark: 38 38 38;       /* neutral-800 */
+  --color-on-surface-dark: 163 163 163; /* neutral-400 */
+  --color-muted: 82 82 82;             /* neutral-600 */
+
+  --gradient-primary: linear-gradient(to right, #fb7185, #d946ef, #6366f1);
+  --gradient-primary-135: linear-gradient(135deg, #fb7185, #d946ef, #6366f1);
+  --gradient-name: linear-gradient(to right, #9333ea, #db2777, #2563eb);
 }
 
 /* ============================================
@@ -220,6 +220,18 @@ a:hover {
 .cta-btn--resume:hover::after {
   width: 100%;
 }
+
+.contact-button-color-fix {
+  background-color: white;
+  background-image: revert;
+  -webkit-background-clip: revert;
+  -webkit-text-fill-color: revert;
+  background-clip: revert;
+}
+
+/* .contact-button-color-fix {
+  background-color: white;
+} */
 
 /* ============================================
    5. HEADER / NAVBAR

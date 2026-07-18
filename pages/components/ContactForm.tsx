@@ -72,7 +72,7 @@ function ContactForm() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="cta-btn cta-btn--hero"
+            className="cta-btn cta-btn--hero contact-button-color-fix"
           >
             <span>Send</span>
           </button>
